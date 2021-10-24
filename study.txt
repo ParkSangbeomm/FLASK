@@ -13,3 +13,6 @@
 5. mkdir 옵션 중에서 -p 라는게 있는데 중간 디렉토리들이 없으면 그냥 만들어버리는 개쩌는 옵션
 6. app.py를 만들고 파일이 있는 곳에서 FLSK_APP=app.py FLSK_DEBUG=1 flask run 하면 5000번 포트에 실행되고 ping보내면 pong 옴
 7. brew install httpie 라는걸 설치하면 cli로 http -v GET https://localhost:5000/ping 하면 바로 뜸
+8. FLASK_ENV 는 Flask가 실행되는 개발 스테이지를 의미하며 development로 정하면 debug mode가 실행된다.
+   FLASK_ENV=development FKAS_APP=app.py flask run
+9. brew install mysql : mac에 brew설치
